@@ -52,9 +52,8 @@ def ask_from_bot():
     msgs.insert(END, "you : " + query)
     print(type(answer_from_bot))
     msgs.insert(END, "bot : " + str(answer_from_bot))
-    # speak(answer_from_bot)
     textF.delete(0, END)
-    # msgs.yview(END)
+
 
 
 frame = Frame(main)
